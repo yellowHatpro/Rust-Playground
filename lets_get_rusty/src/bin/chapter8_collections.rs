@@ -9,4 +9,7 @@ fn main() {
 
     //Strings
     chapters::chapter8::strings::strings();
+
+    //Hashmaps
+    chapters::chapter8::hashmaps::hashmaps();
 }
