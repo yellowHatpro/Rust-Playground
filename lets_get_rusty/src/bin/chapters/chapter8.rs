@@ -53,7 +53,6 @@ pub mod strings {
         // the ability to iterate over Grapheme clusters is not included by default
         // import unicode-segmentation crate
         use unicode_segmentation::UnicodeSegmentation;
-
         for g in hello.grapheme_indices(true) {
             println!("{:#?}", g);
         }
