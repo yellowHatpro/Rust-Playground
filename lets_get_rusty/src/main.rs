@@ -1,9 +1,6 @@
-fn main() {
-    let s = String::from("Ashu");
-    checking_integers_borrow(s.clone());
-    println!("{}", s);
-}
+pub mod bin;
+use bin::chapters;
 
-fn checking_integers_borrow(a: String) {
-    println!("{}", a);
+fn main() {
+    //Try any chapter like chapters::chapter1:: ..
 }

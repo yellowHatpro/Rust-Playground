@@ -5,5 +5,5 @@ fn main() {
     chapters::chapter3::basics::basics();
 
     //loops
-    chapters::chapter3::loops::loop_fn();
+    chapters::chapter3::loops::loops();
 }

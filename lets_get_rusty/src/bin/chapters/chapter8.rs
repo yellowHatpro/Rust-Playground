@@ -4,7 +4,7 @@ pub mod strings {
 
     fn string_operations() {
         let mut s = String::from("foo");
-        s.push("bar"); //can push string slice
+        s.push_str("bar"); //can push string slice
         s.push('!'); //can push character
         let s1 = String::from("hello ");
         let s2 = String::from("world!");

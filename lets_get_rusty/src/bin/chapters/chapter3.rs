@@ -5,7 +5,8 @@ pub mod basics {
 
     //last expression is returned if return is not specified, don't use semi colon in this case
     fn return_area_of_circle(r: i32) -> f32 {
-        3.14 * r * r
+        let r_sq = r * r;
+        r_sq as f32 * 1.5
     }
     pub fn basics() {
         //variables
@@ -26,7 +27,7 @@ pub mod basics {
         print_area(20, 20);
 
         let area_of_circle = return_area_of_circle(12);
-        if area_of_circle < 10 {
+        if area_of_circle < 10.0 {
             println!("small circle ");
         } else {
             println!("big circle");
