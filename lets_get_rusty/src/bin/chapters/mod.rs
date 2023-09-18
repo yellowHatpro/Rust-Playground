@@ -1,4 +1,5 @@
 pub mod chapter10;
+pub mod chapter10_2;
 pub mod chapter3;
 pub mod chapter4;
 pub mod chapter5;
