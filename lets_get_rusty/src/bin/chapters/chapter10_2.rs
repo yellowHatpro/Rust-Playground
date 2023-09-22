@@ -29,7 +29,7 @@ pub mod traits {
     pub fn traits() {}
 
     fn main() {
-        let article = NewsArticle {
+        let _article = NewsArticle {
             author: String::from("Ashu Aswal"),
             headline: String::from("The sky is falling"),
             content: String::from("The sky is not actually falling"),

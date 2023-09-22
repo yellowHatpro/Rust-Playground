@@ -11,14 +11,14 @@ pub mod generics {
     }
 
     impl<U> Point<U> {
-        pub fn x(&self) -> &U {
+        pub fn x(&self) -> &T {
             &self.x
         }
     }
 
     pub fn generics() {
-        let p1 = Point { x: 5, y: 6 };
-        let c1 = Cursor { x: 4, y: 3.0 };
+        let _p1 = Point { x: 5, y: 6 };
+        let _c1 = Cursor { x: 4, y: 3.0 };
     }
 
     pub fn get_largest<T: PartialOrd + Copy>(number_list: Vec<T>) -> T {
