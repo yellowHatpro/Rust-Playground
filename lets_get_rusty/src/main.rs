@@ -3,5 +3,5 @@ use bin::chapters;
 
 fn main() {
     //Try any chapter like chapters::chapter1:: ..
-    chapters::chapter9::panics::result_enums();
+    chapters::chapter12::tests::it_works();
 }

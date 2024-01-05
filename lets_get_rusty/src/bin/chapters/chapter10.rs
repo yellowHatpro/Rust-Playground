@@ -11,7 +11,7 @@ pub mod generics {
     }
 
     impl<U> Point<U> {
-        pub fn x(&self) -> &T {
+        pub fn x(&self) -> &U {
             &self.x
         }
     }
