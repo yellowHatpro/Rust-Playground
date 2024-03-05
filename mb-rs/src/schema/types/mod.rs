@@ -66,11 +66,11 @@ pub enum EventArtPresence {
 #[derive(Clone, Debug, PartialEq, PartialOrd, sqlx::Type)]
 #[sqlx(type_name = "cube", rename_all = "lowercase")]
 pub enum Cube {
-    Cube(String),
+    Cube,
 }
 // TODO is this the right type?
 #[derive(Clone, Debug, PartialEq, PartialOrd, sqlx::Type)]
 #[sqlx(type_name = "point", rename_all = "lowercase")]
 pub enum Point {
-    Point(String),
+    Point,
 }
