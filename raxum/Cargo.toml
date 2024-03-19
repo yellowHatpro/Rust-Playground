@@ -1,0 +1,13 @@
+[package]
+name = "raxum"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = {features = ["full"], version = "1.36.0"}
+axum = "0.7.4"
+
+[dev-dependencies]
+anyhow = "1.0.81"
