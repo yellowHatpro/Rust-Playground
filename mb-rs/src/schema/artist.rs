@@ -15,7 +15,7 @@ pub struct Artist {
   pub end_date_year: Option<i16>,
   pub end_date_month: Option<i16>,
   pub end_date_day: Option<i16>,
-  pub Type: Option<i32>,
+  pub r#type: Option<i32>,
   pub area: Option<i32>,
   pub gender: Option<i32>,
   pub comment: String,
