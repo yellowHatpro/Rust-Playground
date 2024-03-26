@@ -2,10 +2,13 @@
 // Generated with sql-gen
 // https://github.com/jayy-lmao/sql-gen
 
+use std::fmt::{Debug, Display};
+use std::io;
 use sqlx::{query, query_as, PgExecutor, Result};
 use super::Application;
 
 pub struct ApplicationSet;
+
 
 impl ApplicationSet {
 // SELECT statements
